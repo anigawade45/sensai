@@ -13,6 +13,7 @@ import { faqs } from "@/data/faqs";
 import { testimonial } from "@/data/testmonial";
 import { features } from "@/data/features";
 import { howItWorks } from "@/data/howltWorks";
+import FeedbackForm from "@/components/feedback-form";
 
 export default function Home() {
   return (
@@ -176,6 +177,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <FeedbackForm/>
     </div>
   );
 }

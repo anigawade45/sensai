@@ -7,7 +7,6 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Github, Linkedin } from "lucide-react";
 import Link from "next/link";
 import { dark } from "@clerk/themes";
-import FeedbackForm from "@/components/feedback-form";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,7 +36,6 @@ export default function RootLayout({ children }) {
             <Header />
             <main className="min-h-screen">{children}</main>
             <Toaster richColors />
-            <FeedbackForm />
             <footer className="bg-muted/50 py-12">
               <div className="container mx-auto px-4 text-center text-muted-foreground">
                 <p>Made with 💗 by Aniket</p>
