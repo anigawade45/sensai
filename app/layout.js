@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
                   <a href="https://github.com/anigawade45" target="_blank" rel="noopener noreferrer">
                     <Github className="w-5 h-5 hover:text-black transition-colors  dark:hover:text-white" />
                   </a>
-                  <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                  <a href="https://sensai-orcin.vercel.app/dashboard" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="w-5 h-5 hover:text-blue-600 transition-colors dark:hover:text-white" />
                   </a>
                 </div>
